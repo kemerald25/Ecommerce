@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Sign from "./components/sign";
+import Sign from "./components/Sign";
 import Profile from "./components/Profile";
 
 const App = () => {
