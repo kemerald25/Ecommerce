@@ -9,7 +9,7 @@ const Profile = () => {
     const user = JSON.parse(localStorage.getItem("user"));
     const userId = user.id;
 
-    fetch(`https://dummyjson.com/users/${userId}`)
+    fetch(`https://ecommerce-swart-eight.vercel.app/users${userId}`)
       .then((response) => response.json())
       .then((userData) => {
         // Save user details in local storage
