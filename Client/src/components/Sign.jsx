@@ -8,7 +8,7 @@ const Sign = () => {
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleLogin = () => {
-    fetch("https://dummyjson.com/auth/login", {
+    fetch("https://ecommerce-swart-eight.vercel.app/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
