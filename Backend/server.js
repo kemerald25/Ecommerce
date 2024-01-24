@@ -13,9 +13,10 @@ app.use(express.json())
 app.use("/api/auth", router)
 
 const PORT = 5000;
+const HOST = https://ecommerce-swart-eight.vercel.app/;
 
 connectDb().then(() => {
-    app.listen(PORT, () => {
+    app.listen(PORT, HOST, () => {
         console.log(`server is running at port: ${PORT}`);
     });
 })
